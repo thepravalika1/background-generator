@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #000000, #ffffff);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+
+input[type="color"] {
+    height: 30px;
+    width: 100px;
+}
+
+button {
+    height: 30px;
+    margin-left: 10px;
+}
